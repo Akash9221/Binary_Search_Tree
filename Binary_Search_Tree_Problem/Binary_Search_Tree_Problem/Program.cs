@@ -6,7 +6,13 @@ namespace Binary_Search_Tree_Problem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Binary Search Tree");
+
+            BinarySearchTree<int> bst = new BinarySearchTree<int>(56);
+            bst.Insert(30);
+            bst.Insert(70);
+            bst.Display();
+            Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
